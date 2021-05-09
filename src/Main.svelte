@@ -13,7 +13,9 @@
   {#if $htmlOutput}
     <div class="output">{@html $htmlOutput}</div>
   {:else}
-    <div class="output">Type something in the editor...</div>
+    <div class="output">
+      Rendered html will appear here. Type in the editor on the left.
+    </div>
   {/if}
 </div>
 
