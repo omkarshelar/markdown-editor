@@ -29,9 +29,14 @@
     height: 80vh;
   }
   .output {
-    border: 1px solid #535353;
+    border: 1px solid #999;
     width: 50%;
-    height: 80vh;
+    height: calc(80vh - 1em - 2px);
     overflow: auto;
+    padding: 0.5em;
+    margin-left: 0.25em;
+  }
+  textarea {
+    border: 1px solid black;
   }
 </style>
